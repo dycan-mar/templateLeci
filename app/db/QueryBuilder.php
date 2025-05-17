@@ -12,7 +12,6 @@ function query($sql, $params = [])
     }
     return $stmt;
 }
-
 function countQuery($sql, $params = [])
 {
     global $pdo;
